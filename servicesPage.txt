@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Services</title>
+<style>
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+        margin-right: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 28px;
+    }
+    a:hover {
+        border-bottom: 2px solid #333;
+    }
+    a.active {
+        border-bottom: 2px solid #333;
+    }
+    body {
+        background-color: skyblue;
+    }
+    .services {
+        text-align: left;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 100px;
+    }
+    .services-list li {
+        margin-bottom: 10px;
+        
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Bindu Reddy</h1>
+    <ul>
+        <li><a href="#" >Home</a></li>
+        <li><a href="About.html" target="_blank">About</a></li>
+        <li><a href="services.html" target="_blank" class="active">Services</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="tel:+123456789">Contact</a></li>
+    </ul>
+</header>
+<div class="services">
+    <h2>My Services Include:</h2>
+    <ul class="services-list">
+        <li><h2><Web Development: Building and maintaining websites using HTML, CSS, JavaScript, and frameworks like Bootstrap.</h2></li><br>
+        <li><h2>Java Development: Creating applications using Java, including backend systems and desktop applications.</h2></li>
+        <li><h2>Database Development: Creating and maintaining databases using SQL.</h2></li>
+        <li><h2>Software Consulting: Offering advice and expertise on software projects, including best practices and technology selection.</h2></li>
+    </ul>
+</div>
+</body>
+</html>
