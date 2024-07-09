@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>About</title>
+<style>
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+
+        }
+ul {
+            list-style-type: none;
+           margin:0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-size:28px;
+
+        }
+ a:hover {
+            border-bottom: 2px solid #333;
+        }
+a.active {
+            border-bottom: 2px solid #333;
+        }
+body{
+background-color:skyblue;
+
+}
+.content{
+    text-align: center;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Bindu Reddy</h1>
+    <ul>
+        <li><a href="#" >Home</a></li>
+        <li><a href="About.html" target="_blank" class="active" >About</a></li>
+        <li><a href="services.html" target="_blank">Services</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="tel:+123456789">Contact</a></li>
+    </ul>
+</header>
+<div class="content">
+    <h2>Hi, I'm Chilakam Bindu Reddy</h2><br>
+<h2>I recently completed my Bachelor of Engineering in Computer Science and Engineering from Jansons Institute Of Technology, achieving an 85% aggregate. Before that, I completed my secondary education at Narayana Junior College with an 81% score, and my schooling at Viswa Bharathi Public High School with an 83% score.
+<br>
+I come from a nuclear family. My elder brother works at FIS Company with a salary of 12 LPA, my mother is a housewife, and my father is a farmer.
+<br>
+I have a strong foundation in Java, HTML, CSS, MySQL, and BootStrap, and I am keen to apply my knowledge in a practical environment. I am passionate about software development and eager to contribute to innovative projects and grow my skill set further.</h2> 
+</div>
+</body>
+</html>
