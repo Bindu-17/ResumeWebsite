@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Home</title>
+<style>
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+
+        }
+ul {
+            list-style-type: none;
+           margin:0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-size:28px;
+
+        }
+ a:hover {
+            border-bottom: 2px solid #333;
+        }
+a.active {
+            border-bottom: 2px solid #333;
+        }
+body{
+background-color:skyblue;
+
+}
+
+.content{
+text-align:left;
+padding :200px;
+}
+
+input
+{
+    background-color: black;
+    margin-top: 45px;
+    margin-left: 5px;
+    -webkit-text-fill-color: white;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size:20px;
+}
+
+ img{
+border-radius:200px;
+
+height:200px;
+width:200px;
+border:3px solid;
+border-color:black;
+}
+footer
+{
+margin-top:200px;
+border:50px solid;
+border-color:white;
+} 
+.circle{
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 0;
+    top: 0;
+
+    margin-top: 270px;
+    margin-left: 955px;
+}
+img{
+border-radius: 50%;
+}
+
+
+    </style>
+</head>
+<body>
+<header>
+<h1>Bindu Reddy</h1>
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="About.html" target="_blank" >About</a></li>
+        <li><a href="services.html" >Services</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="tel:+123456789">Contact</a></li>
+    </ul>
+
+</header>
+<div class="content">
+<h2>Hii There!</h2>
+<h2><b>I'm Chilakam Bindu Reddy</h2>
+<h2>I Am Software Developer</h2>
+
+<div id="contact-button">
+
+<input type="button" id="btbutton" value="Contact Me"/>
+
+</div>
+</div>
+<div class="circle">
+
+<img src="D:\bindu.jpeg" id="bindu">
+</div>
+</body>
+</html>
