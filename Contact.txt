@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Contact</title>
+<style>
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+}
+a:hover {
+    border-bottom: 2px solid #333;
+}
+a.active {
+    border-bottom: 2px solid #333;
+}
+body {
+    background-color: skyblue;
+}
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info {
+    font-size: 20px;
+}
+.contact-info p {
+    margin: 10px 0;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Bindu Reddy</h1>
+<ul>
+    <li><a href="#" >Home</a></li>
+    <li><a href="About.html" target="_blank">About</a></li>
+    <li><a href="services.html" target="_blank">Services</a></li>
+    <li><a href="Resume.html" target="_blank">Resume</a></li>
+    <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+    <li><a href="testimonials.html" target="_blank">Testimonials</a></li>
+    <li><a href="tel:+123456789" class="active">Contact</a></li>
+</ul>
+</header>
+<div class="content">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:bindureddy@example.com">chilakam9@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+123456789">+91 8328540919</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/Bindu-17</a></p>
+    </div>
+</div>
+</body>
+</html>
