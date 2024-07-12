@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>portfolio</title>
+<style>
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+
+        }
+ul {
+            list-style-type: none;
+           margin:0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-size:28px;
+
+        }
+ a:hover {
+            border-bottom: 2px solid #333;
+        }
+a.active {
+            border-bottom: 2px solid #333;
+        }
+body{
+background-color:skyblue;
+
+}
+.content{
+    padding: 20px;
+}
+.abstract{
+    padding: 20px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+.merits{
+    padding: 20px;
+    font-size: 20px;
+}
+.conclusion{
+    padding: 20px;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Bindu Reddy</h1>
+<ul>
+    <li><a href="#" >Home</a></li>
+    <li><a href="About.html" target="_blank">About</a></li>
+    <li><a href="services.html" target="_blank">Services</a></li>
+    <li><a href="Resume.html" target="_blank" >Resume</a></li>
+    <li><a href="portfolio.html" target="_blank" class="active">Portfolio</a></li>
+    <li><a href="testimonials.html" target="_blank">Testimonials</a></li>
+    <li><a href="tel:+123456789">Contact</a></li>
+</ul>
+</header>
+<div class="content">
+    <h2>INDUSTRIAL FIRE DETECTION ALERT AND
+        MANAGEMENT SYSTEM</h2>
+</div>
+<div class="abstract">
+    <h3>ABSTRACT</h3>
+    • Industrail fire detection, alert and management systems are critical in
+ensuring the safety of personnel and assets in manufacturing plants and other
+industrial facilities.<br>
+• This presents an abstract of an industrial fire monitoring and management
+system that employs advanced technologies to detect and mitigate fire
+outbreaks. The system consists of a network of sensors that continuously
+monitor critical areas of the plant for potential fire hazards, such as elevated
+temperatures or gas leaks.<br>
+• When a hazard is detected, the system alerts the plant's safety personnel
+through a centralized control panel or mobile devices, providing real-time
+information on the location and severity of the fire.<br>
+• The system also initiates automatic fire suppression mechanisms, such as
+sprinklers, to contain the fire until safety personnel arrive on the scene.<br>
+• Additionally, the system can provide historical data and analytics that can
+be used to improve safety procedures and identify potential hazards before
+they cause harm.<br>
+• Overall, an industrial fire monitoring and management system can
+significantly reduce the risk of fire outbreaks, protect personnel and assets,
+and improve overall safety in industrial environments.
+</div>
+<div class="merits">
+<h3>MERITS</h3> 
+• Easy to install and maintain<br>
+• Protecting multiple hazards with just one system<br>
+• Scalable to any size of protecting areas<br>
+• Capital damage can be avoided<br>
+• Many lives can be saved
+</div>
+<div class="conclusion">
+<h3>CONCLUSION</h3>
+• Thus this Fire management system play a very important role in Industries, Shops,
+Malls, Residential complexes, and parking areas<br>
+• They help in detecting fire or harmful gas at an early stage and can help in saving
+lives. Commercial Fire detecting systems usually have an alarm signaling, with the
+help of a buzzer or Siren.<br>
+• We have designed an this system to send an immediate alert through the bulk sms
+service via GSM Module.<br>
+• These systems do not require any human interaction.<br>
+• In this Industrial fire management system using temperature, flame and gas sensors
+using the IOT project, we can send LIVE information like Temperature, gas and flame
+detected by a particular device to the Fire Department so the capital damage can be
+avoided.<br>
+</div>
+</body>
+</html>
